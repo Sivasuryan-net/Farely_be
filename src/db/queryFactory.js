@@ -1,3 +1,6 @@
+// src/db/queryFactory.js
+// A factory for creating and executing database queries using Mongoose models
+
 const createRecord = async (model, data) => {
     try {
         const record = new model(data);
